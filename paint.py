@@ -4,7 +4,7 @@ import os
 from tkinter.colorchooser import askcolor
 
 class Paint(object):
-    DEFAULT_PEN_SIZE = 20.0
+    DEFAULT_PEN_SIZE = 30.0
     DEFAULT_COLOR = 'black'
 
     def __init__(self):
@@ -22,7 +22,7 @@ class Paint(object):
         self.eraser_button = Button(self.root, text='eraser', command=self.use_eraser)
         self.eraser_button.grid(row=0, column=3)
 
-        self.choose_size_button = Scale(self.root, from_=20, to=30, orient=HORIZONTAL)
+        self.choose_size_button = Scale(self.root, from_=30, to=40, orient=HORIZONTAL)
         self.choose_size_button.grid(row=0, column=4)
 
         self.c = Canvas(self.root, bg='black', width=300, height=300)
