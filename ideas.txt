@@ -1,0 +1,2 @@
+- fazer a matriz de confusão
+- fazer um teste de hipóteses sobre a diferença de padrões do 7
